@@ -68,7 +68,7 @@ app.use(async ctx => {
 })
 
 // start loop
-if (pollingInterval >= 3500) {
+if (pollingInterval > 0) {
   setInterval(async () => {
     const total = await scrapeApplication()
     totalVotes.set(total)
