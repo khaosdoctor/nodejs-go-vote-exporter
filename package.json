@@ -9,7 +9,7 @@
   "author": "Lucas Santos <hello@lsantos.dev>",
   "license": "GPL-3.0",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "koa": "^2.13.1",
     "prom-client": "^13.1.0"
   }
